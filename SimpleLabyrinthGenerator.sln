@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleLabyrinthGenerator", "SimpleLabyrynthGenerator\SimpleLabyrinthGenerator.csproj", "{DE646304-D44D-4B85-B5F4-09859CD827EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleLabyrinthGenerator", "SimpleLabyrinthGenerator\SimpleLabyrinthGenerator.csproj", "{DE646304-D44D-4B85-B5F4-09859CD827EF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maze", "Maze\Maze.csproj", "{A61248C9-D989-48CE-849B-35546765167D}"
 EndProject
