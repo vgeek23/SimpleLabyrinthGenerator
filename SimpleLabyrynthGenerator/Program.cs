@@ -16,7 +16,7 @@ namespace SimpleLabyrynthGenerator
                 var width = 64;
                 var height = 32;
                 var pathPercentage = 60;
-                Labyrynth maze = new Labyrynth(width, height, pathPercentage);
+                Labyrinth maze = new Labyrinth(width, height, pathPercentage);
                 maze.DisplayMaze += DisplayMaze;
                 Console.WriteLine("Press ESC to stop");
                 Console.WriteLine("Generating new labyrynth!---->");
@@ -36,7 +36,7 @@ namespace SimpleLabyrynthGenerator
                         Console.SetCursorPosition(0, 2);
                         Console.BackgroundColor = ConsoleColor.Black;
                         Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.WriteLine("Generating new labyrynth!---->");
+                        Console.WriteLine("Generating new labyrinth!---->");
                         maze.GenerateLabyrynth();
                     }
                 }
@@ -47,7 +47,7 @@ namespace SimpleLabyrynthGenerator
                 Console.ReadKey();
             }
         }
-        private static void DisplayMaze(Labyrynth maze)
+        private static void DisplayMaze(Labyrinth maze)
         {            
             Console.SetCursorPosition(3, 3);
             Console.WriteLine("_____________Your maze is ready!------->" + Environment.NewLine);

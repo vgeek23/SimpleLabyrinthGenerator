@@ -2,12 +2,12 @@
 
 namespace Maze
 {
-    public class Labyrynth
+    public class Labyrinth
     {
-        public delegate void LabyrynthHandler(Labyrynth maze);
-        public event LabyrynthHandler DisplayMaze;
+        public delegate void LabyrinthHandler(Labyrinth maze);
+        public event LabyrinthHandler DisplayMaze;
         private Random random;
-        public Labyrynth(int _height, int _width, int _pathPercentages)
+        public Labyrinth(int _height, int _width, int _pathPercentages)
         {
             width = _width;
             height = _height;
