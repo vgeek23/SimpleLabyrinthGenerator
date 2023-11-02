@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Maze
+﻿namespace Maze
 {
     /// <summary>
     /// Using North, East, South and West as reference to neighbour corner
